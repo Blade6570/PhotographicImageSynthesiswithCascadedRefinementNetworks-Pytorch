@@ -497,7 +497,7 @@ def training(M):
              del count
              del Loss, label_images,G_temp, input_images
          shuffle(l)
-         epoch_loss = running_loss / 2975.0
+         epoch_loss = running_loss / 2975.0 #can replace the 2975 with c_t for generalization
          print(epoch, epoch_loss)
          if epoch % 2 == 0:
             Generator=Generator.permute(0,2,3,1)
