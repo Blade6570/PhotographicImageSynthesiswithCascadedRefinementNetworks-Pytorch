@@ -15,4 +15,9 @@ This is a Pytorch implementation of cascaded refinement networks to synthesize p
     the RGB training images in *RGB256Full* (without any subfolders).
  3. Set *mode=train* in *Cascadaed_Network_LM_256.py* and run it for desired epochs (default is 200).
  
+ **Future Work**
+ 1. Soon the pretrained weights for resolution *512x1024* and *1024x20148* will be available along with training scripts. 
  
+ **Note**
+ 1. All the codes are written to run on GPU. Suitable changes should be done if you want to run on CPU. Also feel free to   
+    customize it according to your need.
