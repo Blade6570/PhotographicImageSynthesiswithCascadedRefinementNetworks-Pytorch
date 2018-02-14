@@ -458,7 +458,7 @@ def training(M):
      label_dir='Label256Full'
      l=os.listdir(label_dir)
      
-     for epoch in range(100):
+     for epoch in range(200):
          running_loss=0
          c_t=0
          for I in enumerate(l):
